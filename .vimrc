@@ -11,13 +11,13 @@ set laststatus=2
 set showmatch
 set hlsearch
 
-set wildmenu
-set wildmode=longest:list,full
+#set wildmenu
+#set wildmode=longest:list,full
 
-if [ -f /etc/bashrc ]; then
-  . /etc/bashrc
-  stty -ixon
-fi
-nmap <C-S> :w<CR>
-vmap <C-S> <C-C>:w<CR>
-imap <C-S> <Esc>:w<CR>
+#if [ -f /etc/bashrc ]; then#
+#  . /etc/bashrc
+#  stty -ixon
+#fi
+#nmap <C-S> :w<CR>
+#vmap <C-S> <C-C>:w<CR>
+#imap <C-S> <Esc>:w<CR>
